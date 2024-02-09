@@ -17,7 +17,7 @@ layout:
 
 ### Gruppi:
 
-Deifinizione di gruppo, reticolo dei sottogruppi (casi particolari)
+Definizione di gruppo, reticolo dei sottogruppi (casi particolari)
 
 ***
 
@@ -29,33 +29,29 @@ Definizione di anello, anello dei polinomi
 
 ### Campi:
 
-
-
 {% hint style="success" %}
+_**Definizione:         Campo**_
 
+$$(F,+,\cdot)$$ anello commutativo con unità si dice campo se:
+
+$$
+\mathcal{U}(F)= F \setminus \{0\}
+$$
+
+dove $$\mathcal{U}(F)$$è l'insieme degli elementi che ammettono inverso moltiplicativo.
+
+In altre parole se tutti gli elementi eccetto lo zero sono invertibili.
 {% endhint %}
 
-> _**Definizione:         Campo**_
->
-> (F, +, \cdot) anello commutativo con unità si dice campo se:
->
-> ```
-> \mathcal{U}(F)= F \setminus \{0\}
-> ```
->
-> dove \mathcal{U}(F) è l'insieme degli elementi che ammettono inverso moltiplicativo.
->
-> In altre parole se tutti gli elementi eccetto lo zero sono invertibili.
+{% hint style="success" %}
+_**Definizione**_:         _**Sottocampi**_
 
-> _**Definizione:         Sottocampo**_
->
-> Sia (F, +, \cdot) un campo, H \subset F si dice sottocampo se
->
-> ```
-> (H, +_{\vert_H}, \cdot_{\vert_H})
-> ```
->
-> è un campo.
+Sia $$(F, +, \cdot)$$ un campo, H \subset F si dice sottocampo se
 
+```
+(H, +_{\vert_H}, \cdot_{\vert_H})
+```
 
+è un campo.
+{% endhint %}
 
